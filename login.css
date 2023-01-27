@@ -5,6 +5,11 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -16,7 +21,7 @@ body{
 }
 
 header{
-    margin-top: 10px;
+    margin-top: 5px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -26,21 +31,42 @@ header{
     color:rgb(241, 246, 250);
     position: sticky;
     top:0;
-   
+
     
+}
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 0 rgb(3, 1, 1);
+    text-align: center;
+    margin: 10px;
+    scroll-margin-top: 60px;
+}
+.cursos h2{
+    margin-bottom: 10px;
+}
+
+footer{
     
-    
+    margin: 10px 10px;
 }
 
 #header_div:hover{
     cursor: pointer;
 }
 
+.enlaces{
+    width:50%;
+    
+}
+
 .a{
     font-size: 22px;
     margin: 10px 3px;
    
-    
 }
 
 .logo{
@@ -50,7 +76,7 @@ header{
 }
 
 .logo img{
-    width: 80px;
+    width: 70px;
    
 
 }
@@ -78,7 +104,7 @@ h3{
 }
 
 .redesSociales{
-    width: 40px;
+    width: 50px;
     margin: 0px 5px;
 }
 
@@ -101,7 +127,7 @@ p{
     text-decoration: none;
 }
 
-.menu-horizontal > li:hover{
+.menu-horizontal > li > a:hover{
     background-color: red;
 }
 
@@ -158,9 +184,17 @@ p{
     header{
         flex-direction: column;
         
+        
     }
     .enlaces{
         margin-bottom: 20px;
+        width: 100%;
+        
+    }
+
+    .redesSociales{
+        width: 70px;
+        margin: 0px 20px;
     }
 
     .imgMartin{
@@ -170,6 +204,22 @@ p{
     .a{
         font-size: 20px;
     }
+
+    p{
+        width: 70%;
+        
+    }
+
+    h3{
+        margin-top: 5px;
+    }
+
+    html{
+        
+        scroll-padding-top: 270px;
+    }
+    
+    
 
     
 
