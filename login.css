@@ -17,17 +17,16 @@ body{
 
 header{
     margin-top: 10px;
-    height: auto;
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color:rgb(50, 46, 58);
     padding: 10px;
     color:rgb(241, 246, 250);
     position: sticky;
     top:0;
-    border-bottom: 1px solid rgb(208, 208, 244);
+   
     
     
     
@@ -38,11 +37,9 @@ header{
 }
 
 .a{
-    font-size: 20px;
-    color:rgb(241, 49, 19);
-    font-family:  sans-serif;
-    background-color:rgb(50, 46, 58);
-    margin: auto 10px;
+    font-size: 22px;
+    margin: 10px 3px;
+   
     
 }
 
@@ -91,6 +88,48 @@ p{
     margin-bottom: 20px;
 }
 
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+    background-color: red;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    background-color: rgb(22, 20, 30);
+}
+
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+
+.mail{
+    color:aliceblue;
+    font-size: 22px;
+}
+
 
 
 
@@ -120,16 +159,19 @@ p{
         flex-direction: column;
         
     }
+    .enlaces{
+        margin-bottom: 20px;
+    }
 
     .imgMartin{
         width: 40%;
     }
-
+    
     .a{
-        
-        margin: auto 5px;
-        
+        font-size: 20px;
     }
+
+    
 
 }
 
