@@ -131,7 +131,7 @@ p{
 }
 
 .menu-horizontal > li > a:hover{
-    background-color:  rgb(43, 43, 238, 0.7);
+    background-color: rgb(43, 43, 238, 0.7);
     border-radius: 5px;
 }
 
@@ -141,6 +141,7 @@ p{
     list-style: none;
     background-color: rgb(43, 43, 238, 0.7);
     border-radius: 5px;
+    
 }
 
 .menu-horizontal li:hover .menu-vertical{
@@ -155,6 +156,7 @@ p{
     display: block;
     color: white;
     padding: 15px 15px 15px 20px;
+   
     
 }
 
@@ -174,6 +176,12 @@ p{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+.logos_cursos{
+    width: 20%;
+    height: auto;
+    margin: 20px;
 }
 
 
