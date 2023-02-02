@@ -179,7 +179,7 @@ p{
 }
 
 .logos_cursos{
-    width: 20%;
+    width: 10%;
     height: auto;
     margin: 20px;
 }
@@ -247,6 +247,13 @@ p{
         
         scroll-padding-top: 270px;
     }
+
+    .logos_cursos{
+        width: 20%;
+        height: auto;
+        margin: 20px;
+    }
+    
     
     
 
